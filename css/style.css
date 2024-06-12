@@ -5,10 +5,10 @@ body {
 }
 
 #logo {
-    color: white;
+    color:whitesmoke;
     text-decoration: none;
     font-size: 20pt;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: -1px;
     font-weight: bold;
     margin-left: 100px;
@@ -24,7 +24,8 @@ body {
 }
 
 #hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.185), rgba(0, 0, 0, 0.685)), url(../img/hero_1.jpg.webp);
+    /* background-image: url(../img/hero12.jpeg); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.167), rgba(0, 0, 0, 0.667)), url(../img/hero18.jpg);
     background-size: cover;
     height: 100vh;
 }
@@ -34,13 +35,18 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 70px;
+    padding-right: 10%;
 
 }
 
 .navitems {
     text-decoration: none;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navitems:hover{
+    color:palevioletred;
 }
 
 #heading {
@@ -50,6 +56,10 @@ nav {
     margin-bottom: -10px;
     color: white;
     margin-left: 100px;
+}
+
+#serene{
+    color:hotpink;
 }
 
 #paragraph {
@@ -62,7 +72,7 @@ nav {
 .learnmore {
     margin-top: 20px;
     padding: 5px 15px;
-    border: 2px solid rgba(212, 63, 88, 0.562);
+    border: 2px solid plum;
     font-size: 2em;
     border-radius: 120pt;
     margin-top: 30px;
@@ -75,6 +85,10 @@ nav {
     text-decoration: none;
     font-size: 20pt;
     font-weight: bold;
+}
+
+.learnmore a:hover{
+    color: plum;
 }
 
 #section1 {
