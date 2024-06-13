@@ -6,7 +6,7 @@ btn.onclick = function () {
 
 const btn2 = document.getElementById('btn2')
 btn2.onclick = function () {
-    alert('Discount ends tomorrow @ 6pm')
+    alert('Contact us on 0200557689 to book a session')
 }
 
 const btn3 = document.getElementById('btn3')
