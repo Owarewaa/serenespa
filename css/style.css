@@ -310,10 +310,9 @@ p {
 
 .footer {
     height: 20vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.635)), url(../img/hero_1.jpg.webp);
-    /* background-size: cover; */
     padding: 12rem 12rem;
     text-align: center;
+    margin-top: -150px;
 }
 
 #footerlinks {
@@ -334,7 +333,9 @@ p {
     text-align: center;
     size: 20rem;
     color: palevioletred;
-    gap: 10%;
+    gap:15%;
+    margin:auto;
+    width: 5%;
 }
 
 .footer h1 {
