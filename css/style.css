@@ -6,7 +6,7 @@ body {
 }
 
 #logo {
-    color:rgba(204, 23, 83, 0.726);
+    color:rgba(204, 23, 83, 0.811);
     text-decoration: none;
     font-size: 20pt;
     font-family: 'Times New Roman', Times, serif;
@@ -25,7 +25,7 @@ body {
 }
 
 #hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.153), rgba(0, 0, 0, 0.543)), url(../img/hero24.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.153), rgba(0, 0, 0, 0.543)), url(../img/hero23.webp);
     background-size: cover;
     height: 150vh;
 }
@@ -47,8 +47,8 @@ nav {
     font-weight: bold;
 }
 
-.navitems:hover {
-    color:rgb(137, 14, 55);
+.navitems:hover {   
+    color:rgba(204, 23, 83, 0.811);
 }
 
 .navitems details ol {
@@ -67,7 +67,7 @@ nav {
 }
 
 #serene {
-    color:rgba(204, 23, 83, 0.726);
+    color:rgba(204, 23, 83, 0.811);
 }
 
 #paragraph {
@@ -75,14 +75,14 @@ nav {
     margin-top: 20px;
     margin-left: 100px;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 .learnmore {
     margin-top: 20px;
     padding: 5px 15px;
-    border: 2px solid rgb(204, 23, 83);
+    border: 2px solid rgba(204, 23, 83, 0.744);
     font-size: 2em;
     border-radius: 120pt;
     margin-top: 30px;
@@ -318,57 +318,27 @@ p {
     height: 90%;
 }
 
+
 .footer {
-    height: 40px;
-    padding: 12rem 15rem;
-    text-align: center;
-    margin-top: 20px;
-    background-color: rgba(255, 20, 145, 0.285);
-    margin-bottom: 0;
-}
-
-#footerlinks {
-    color: black;
-    text-decoration: none;
-    font-size: 12pt;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    letter-spacing: -1px;
-    font-weight: bold;
-    margin-left: 100px;
-    list-style: none;
+    margin-top: 0%;
+    background-color:rgba(193, 67, 109, 0.699);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding-left: 18%;
+    gap: 6%;
+    
 }
 
-#footericons {
-    display: flex;
-    text-align: center;
-    size: 50rem;
-    color:black;
-    margin: auto;
-    width: 5%;
-    cursor: pointer; 
-}
-
-#footericons a {
-    border-radius: 50%;
-    background-color: aliceblue;
-    padding: 10px;
-}
-
-.footer h1 {
-    color: black;
-    padding-top: 2px;
-}
-
-.footeritems {
+.footerdiv a {
     text-decoration: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
 }
 
-#copyright {
-    background-color: plum;
-    margin-top: 7%;
-    size: 15px;
+.footerdiv h1{
+    color: aliceblue;
+}
+
+#copyright{
+    margin-top:23%;
+    color: aliceblue;
 }
